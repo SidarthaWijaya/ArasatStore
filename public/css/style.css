@@ -1,0 +1,90 @@
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: baseline;
+    align-content:  space-between;
+    justify-content: space-between;
+    position: fixed;
+    left: 30px;
+}
+
+#cart{
+    position: fixed;
+	width: 100px;
+	height: 50px;
+	color:white;
+    /* transition: 0.4s; */
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;   
+    /* word-wrap: break-word;  */
+}
+.title,.brief,.price{
+    color: black;
+  
+}
+a{
+    text-decoration: none;
+}
+.number .quantity {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px
+    ;min-width: 35px;
+    text-align: center;
+}
+.number .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.number .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+div {
+    text-align: left;
+}
+
+span{
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.quantity{  
+    border: 0;
+    width: 2%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
